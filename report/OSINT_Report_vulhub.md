@@ -68,7 +68,7 @@
 
 **Source:** [builtwith.com](https://builtwith.com)
 
-![BuiltWith technology profile for vulhub.com](builtwith_vulhub.png)
+![BuiltWith technology profile for vulhub.com](images/builtwith_vulhub.png)
 
 | Category | Technology | First Detected | Last Detected | Status |
 |---|---|---|---|---|
@@ -90,7 +90,7 @@
 
 **Source:** [crt.sh](https://crt.sh/?q=vulhub.com)
 
-![crt.sh certificate search for vulhub.com](crtsh_vulhub.png)
+![crt.sh certificate search for vulhub.com](images/crtsh_vulhub.png)
 
 A full export (`2026-06-22_vulhubcom.csv`) returned 76 logged certificates spanning **February 2017 to June 2026**.
 
@@ -122,7 +122,7 @@ A full export (`2026-06-22_vulhubcom.csv`) returned 76 logged certificates spann
 
 **Source:** Google search, query `site:vulhub.com`
 
-![Google dork results for site:vulhub.com](google_dork_vulhub.png)
+![Google dork results for site:vulhub.com](images/google_dork_vulhub.png)
 
 **Result:** Google returned only a single bare result for the domain with no page title or description ("No information is available for this page"), and a prompt suggesting omitted near-duplicate entries.
 
@@ -134,7 +134,7 @@ A full export (`2026-06-22_vulhubcom.csv`) returned 76 logged certificates spann
 
 **Source:** [web.archive.org](https://web.archive.org/web/*/vulhub.com)
 
-![Wayback Machine lookup for vulhub.com](wayback_vulhub.png)
+![Wayback Machine lookup for vulhub.com](images/wayback_vulhub.png)
 
 **Result:** The specific URL queried was not archived, and the page reported the live site returned an **HTTP 429 (Too Many Requests)** when the Wayback Machine's crawler attempted to fetch it — the same rate-limiting behavior already observed during active httpx validation.
 
@@ -148,14 +148,14 @@ A full export (`2026-06-22_vulhubcom.csv`) returned 76 logged certificates spann
 
 **Query 1:** `hostname:vulhub.com`
 
-![Shodan hostname search returning no results](shodan_noresults.png)
+![Shodan hostname search returning no results](images/shodan_noresults.png)
 
 No results — Shodan has not indexed any host directly tagged with the `vulhub.com` hostname, likely because the perimeter's aggressive rate-limiting (consistent with earlier findings) prevents Shodan's crawler from completing a banner grab and associating it with the hostname.
 
 **Query 2:** `net:74.63.219.251/32` (the `api.vulhub.com` IP from the DNSDumpster results)
 
-![Shodan net query for 74.63.219.251](shodan_net_query.png)
-![Shodan banner detail for 74.63.219.251](shodan_banners.png)
+![Shodan net query for 74.63.219.251](images/shodan_net_query.png)
+![Shodan banner detail for 74.63.219.251](images/shodan_banners.png)
 
 This scoped query returned **6 indexed results** for the IP itself:
 
