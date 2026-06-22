@@ -10,7 +10,7 @@
 
 **Source:** [whois.com](https://www.whois.com)
 
-![WHOIS lookup for vulhub.com](whois_vulhub.png)
+![WHOIS lookup for vulhub.com](images/whois_vulhub.png)
 
 | Field | Value |
 |---|---|
